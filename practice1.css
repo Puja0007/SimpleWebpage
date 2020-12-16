@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.top{
+    background-image: url(./kelli-tungay-324329-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.para{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+}
+.para h1{
+    font-size: 3rem;
+    line-height: 1.2rem;
+    font-weight: bold;
+
+}
+.para p{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.para > button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: blue;
+    color: wheat;
+    border-radius: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    width: 190px;
+    height: 50px;
+    
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
