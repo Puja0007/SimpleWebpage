@@ -68,5 +68,151 @@
     align-items: center;
 
 }
+.para1{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.heading{
+    
+    font-weight: bolder;
+    
+}
+.list1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.para12{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.para12 h1{
+    
+    font-weight: bolder;
+}
+.para12 p{
+    font-size: 1rem;
+    font-weight: light;
+    display: block;
+    text-align: center;
+}
+.para12 > button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: blue;
+    color: wheat;
+    border-radius: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    width: 190px;
+    height: 50px;
+    
+}
+.third{
+   background-color:#66a3ff;
+    background-size: cover;
+    position: relative;
+    height: max-content;
+    width: 100%;
+    padding: 100px;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
 
+}
+.third h1{
+    font-size: 3rem;
+    line-height: 1.2rem;
+    font-weight: bold;
+}
+.third button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: blue;
+    color: wheat;
+    border-radius: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    width: 190px;
+    height: 50px;
+}
+.fourth{
+    position: relative;
+    height: max-content;
+    width: 100%;
+    padding: 100px;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fourth-para h1{
+       font-weight: bold;
+}
+.fourth-para{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.fourth-para p{
+    font-size: 1rem;
+    font-weight: light;
+    display: block;
+    text-align: center;
+    
+}
+.last{
+    position: relative;
+    height: max-content;
+    width: 100%;
+    padding: 100px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.last h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.last p{
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 2rem;
+}
+.last button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: blue;
+    color: wheat;
+    border-radius: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    width: 190px;
+    height: 50px;
+}
